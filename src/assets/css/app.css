@@ -1,0 +1,42 @@
+#app {
+  text-align: center;
+}
+
+/* body {
+  font-family: "Roboto";
+} */
+
+.g-main {
+  display: inline-grid;
+  grid-gap: 1px;
+  padding: 1px;
+  border: solid 1px #000000;
+  margin: 0.5em;
+}
+
+.g-item {
+  background-color: #e6e6e6;
+  width: 1em;
+  height: 1em;
+}
+
+.g-snake {
+  background-color: rgb(0, 46, 116);
+}
+.g-prize {
+  background-color: rgb(255, 115, 0);
+}
+.g-crashed {
+  background-color: rgb(255, 0, 0);
+}
+
+.g-score {
+  padding: 0.5em;
+}
+.g-actions {
+  padding: 0.5em;
+}
+
+.app-wrap {
+  display: inline-grid;
+}
