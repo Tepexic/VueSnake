@@ -1,9 +1,10 @@
 module.exports = {
   configureWebpack: {
     externals: {
-      "vue": "Vue",
+      vue: "Vue",
+      hammerjs: "Hammer",
     },
   },
 
-  publicPath: ''
+  publicPath: "",
 };

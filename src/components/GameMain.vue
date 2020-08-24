@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import * as Hammer from "hammerjs";
+import Hammer from "hammerjs";
 import CellItem from "./CellItem.js";
 import BodyPart from "./BodyPart.js";
 export default {

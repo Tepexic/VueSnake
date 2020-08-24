@@ -6,8 +6,8 @@
         <hr />
         <h3>Vue.js Snake</h3>
         <p>
-          This game was developed using Vue.js in a few hours.<br />You can
-          check it out on <a href="https://github.com/Afshinb2/VueSnake">GitHub</a>.
+          This game is developed using Vue.js in a few hours.<br />
+          Source code available on <a href="https://github.com/Afshinb2/VueSnake">GitHub</a>.
         </p>
       </div>
     </div>
