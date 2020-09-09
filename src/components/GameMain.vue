@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="g-score">Score: {{ score }}</div>
+  <div class="bg-green-400">
+    <div class="text-uppercase text-xs text-left font-bold pl-2 pt-2">Score: {{ score }}</div>
     <div
       id="game-main"
       class="g-main"
@@ -60,7 +60,7 @@ export default {
       bodyParts: [],
       prize: null,
       crashed: false,
-      maxXY: 20,
+      maxXY: 15,
       speedVal: 2,
       speedMulti: 100.0,
       dirX: 0,
