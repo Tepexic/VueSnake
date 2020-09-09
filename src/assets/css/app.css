@@ -1,10 +1,8 @@
-#app {
-  text-align: center;
-}
+@import "tailwindcss/base";
 
-/* body {
-  font-family: "Roboto";
-} */
+@import "tailwindcss/components";
+ 
+@import "tailwindcss/utilities";
 
 .g-main {
   display: inline-grid;
@@ -15,7 +13,7 @@
 }
 
 .g-item {
-  background-color: #e6e6e6;
+  background-color: #4ac511;
   width: 1em;
   height: 1em;
 }
@@ -30,9 +28,6 @@
   background-color: rgb(255, 0, 0);
 }
 
-.g-score {
-  padding: 0.5em;
-}
 .g-actions {
   padding: 0.5em;
 }
