@@ -19,13 +19,13 @@
 }
 
 .g-snake {
-  background-color: rgb(0, 46, 116);
+  background-color: #000;
 }
 .g-prize {
-  background-color: rgb(255, 115, 0);
+  background-color:#6b006b;
 }
 .g-crashed {
-  background-color: rgb(255, 0, 0);
+  background-color: #af0808;
 }
 
 .g-actions {
