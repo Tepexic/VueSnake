@@ -19,32 +19,6 @@
         ></div>
       </template>
     </div>
-    <div class="g-actions">
-      <button
-        v-if="!crashed && paused"
-        @click="changePause"
-        type="button"
-        class="btn btn-sm btn-primary"
-      >
-        Continue
-      </button>
-      <button
-        v-if="!crashed && !paused"
-        @click="changePause"
-        type="button"
-        class="btn btn-sm btn-secondary"
-      >
-        Pause
-      </button>
-      <button
-        v-if="crashed"
-        @click="resetGame"
-        type="button"
-        class="btn btn-sm btn-primary"
-      >
-        Restart
-      </button>
-    </div>
   </div>
 </template>
 
